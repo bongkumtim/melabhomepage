@@ -1,1 +1,137 @@
-<%= video_tag "m2.webm", :autoplay =>true, :loop=>true, :muted=> true, :controls=> true %> 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">MeLAB</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Page 2</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class = "container-fluid">
+	<!-- <div class = "video-container container-fluid"> -->
+		<%= video_tag "m1.webm",:id=> "video", :autoplay =>true, :loop=>true, :muted=> true %> 
+	<!-- </div> -->
+ <section>
+
+<a href="#" class="scroll-down" address="true"></a>
+</section>
+<section class="ok">
+
+
+ 
+
+
+
+
+
+
+
+
+
+<div class="container segment">
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>Extra Ordinary Wallet</h2>
+          <p class="text-danger">There is a new way to do things! Use MeLAB whenever you travel overseas and make your life simple, happy and beautiful. Start enjoying and Stop worrying. </p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <h2>We take care of your finance</h2>
+          <p>Cheapest Remittance, Cheapest Currency Exchange, Instant Transfer. Only with MeLAB. </p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-lg-4">
+          <h2>We all have the heart</h2>
+          <p>MeLAB is not just a fintech company. We brand ourselve as knighthood and serve the communities.</p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+	</div>
+</div>
+
+      <div class="jumbotron jumbotron-special">
+        <h1>Introduction of MeLAB</h1>
+        <p>Stephanie Dacre is our backend developer.</p>
+        
+       <iframe width="560" height="315" float="right" src="https://www.youtube.com/embed/AJOfWxXOYbk" frameborder="0" allowfullscreen></iframe>
+        
+      </div>
+
+    </div>
+    <center id= "team"><h1> Our Team </h1> </center>
+
+    <div class="container marketing">
+
+
+
+
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <%= image_tag("20170226_165036.jpg", class:"rounded-circle")%>
+          <h2>Chief Technology Officer</h2>
+          <p>CTO Mr.Bong Kum Tim </p>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+           <%= image_tag("20170226_165036.jpg", class:"rounded-circle")%>
+           <h2>Chief Financial Officer </h2>
+          <h5>CFO Ms. Bong Mei Lai</h5>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+           <%= image_tag("20170226_165036.jpg", class:"rounded-circle")%>
+           <h2>Chief Operation Officer</h2>
+          <p>COO Mr. Soo Kok Hang.</p>
+          
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      <div class="row">
+        <div class="col-lg-4">
+           <div><%= image_tag("20170226_165036.jpg", class:"rounded-circle")%></div>.
+           <h2>Chief Security Officer</h2>
+          <p>CSO Mr. Alexander Henderson</p>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+           <%= image_tag("20170226_165036.jpg", class:"rounded-circle")%>
+           <h2>Back End Specialist</h2>
+          <p> Ms. Stephfanie Dacre</p>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+           <%= image_tag("20170226_165036.jpg", class:"rounded-circle")%>
+           <h2>Front End Designer</h2>
+          <p>Ms. Daryna Zincenko</p>
+          
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+ <div class="jumbotron jumbotron-small">
+        <h1>Jumbotron heading</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+      </div>
+
+</section>
+
+<script type="text/javascript"> $(function() {
+    $('.scroll-down').click (function() {
+      $('html, body').animate({scrollTop: $('section.ok').offset().top }, 'slow');
+      return false;
+    });
+  });
+</script>
